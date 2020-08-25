@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="tf_sem" type="sem_broadcaster" name="broadcaster" output="screen" />
+    <node pkg="tf_sem" type="sem_listener" name="listener" output="screen" />
+    <node pkg="rviz" type="rviz" name="rviz" output="screen" />
+</launch>
